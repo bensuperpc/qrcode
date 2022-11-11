@@ -49,6 +49,7 @@ def main():
     )
 
     qr.add_data(args.url)
+    
     qr.make(fit=True)
 
     img = None

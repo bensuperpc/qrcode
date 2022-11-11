@@ -25,7 +25,7 @@ python3 qrcode_generator.py -url <Text or URL> -i <Image path> -e <error correct
 or with double quote
 
 ```sh
-python3 qrcode_generator.py -url "<Text or URL>" -i "<Image path>" -e <error correction level>
+python3 qrcode_generator.py -url "<Text or URL>" -i "<Image path>" -e "<error correction level>"
 ```
 
 ## Example
@@ -60,7 +60,6 @@ python3 qrcode_generator.py -url "Hello World" -e H
 - [python-qrcode](https://github.com/lincolnloop/python-qrcode)
 - [Pillow](https://github.com/python-pillow/Pillow)
 - [python](https://www.python.org/)
-
 
 ## Licensing
 
