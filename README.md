@@ -2,7 +2,7 @@
 
 ## _Generate QRcode_
 
-[![Continuous Integration](https://github.com/bensuperpc/qrcode/actions/workflows/ci.yml/badge.svg)](https://github.com/bensuperpc/qrcode/actions/workflows/base.yml)
+[![qrcode](https://github.com/bensuperpc/qrcode/actions/workflows/base.yml/badge.svg)](https://github.com/bensuperpc/qrcode/actions/workflows/base.yml)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/bensuperpc/qrcode) ![GitHub](https://img.shields.io/github/license/bensuperpc/qrcode)
 
