@@ -19,13 +19,13 @@
 Usage of qrcode:
 
 ```sh
-python3 qrcode_generator.py -url <Text or URL> -i <Image path> -e <error correction level>
+python3 qrcode_generator.py --data <Text or URL> --image <Image path> --error_correction <error correction level> --box_size <box size> --border <border size> ...
 ```
 
 or with double quote
 
 ```sh
-python3 qrcode_generator.py -url "<Text or URL>" -i "<Image path>" -e "<error correction level>"
+python3 qrcode_generator.py --data "<Text or URL>" --image "<Image path>" --error_correction "<error correction level>"
 ```
 
 ## Example
@@ -33,19 +33,31 @@ python3 qrcode_generator.py -url "<Text or URL>" -i "<Image path>" -e "<error co
 Generate QRcode from URL (eg: wikipedia.org)
 
 ```sh
-python3 qrcode_generator.py -url https://www.wikipedia.org/
+python3 qrcode_generator.py --data https://www.wikipedia.org/
 ```
 
-Generate QRcode from text (eg: Hello World) with image in center
+Generate QRcode from text with image in center
 
 ```sh
-python3 qrcode_generator.py -url "Hello World" -i image.png
+python3 qrcode_generator.py --data "Hello World" --image image.png
 ```
 
-Generate QRcode from text (eg: Hello World) with max error correction level
+Generate QRcode from text with max error correction level
 
 ```sh
-python3 qrcode_generator.py -url "Hello World" -e H
+python3 qrcode_generator.py --data "Hello World" --error_correction H
+```
+
+Generate QRcode from text with box size 10 and border 4
+
+```sh
+python3 qrcode_generator.py --data "Hello World" --box_size 10 --border 4
+```
+
+Generate QRcode from text with blue color and white background
+
+```sh
+python3 qrcode_generator.py --data "Hello World" --color "blue" --background "white"
 ```
 
 ## Error correction level
