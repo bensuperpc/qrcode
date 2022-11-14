@@ -6,8 +6,6 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/bensuperpc/qrcode) ![GitHub](https://img.shields.io/github/license/bensuperpc/qrcode)
 
-[![Twitter](https://img.shields.io/twitter/follow/Bensuperpc?style=social)](https://img.shields.io/twitter/follow/Bensuperpc?style=social) [![Youtube](https://img.shields.io/youtube/channel/subscribers/UCJsQFFL7QW4LSX9eskq-9Yg?style=social)](https://img.shields.io/youtube/channel/subscribers/UCJsQFFL7QW4LSX9eskq-9Yg?style=social)
-
 ## Features
 
 - Generate QRcode from text
@@ -22,7 +20,7 @@ Usage of qrcode:
 python3 qrcode_generator.py --data <Text or URL> --image <Image path> --error_correction <error correction level> --box_size <box size> --border <border size> ...
 ```
 
-or with double quote
+Or with double quote (Recommended if you have space in your text)
 
 ```sh
 python3 qrcode_generator.py --data "<Text or URL>" --image "<Image path>" --error_correction "<error correction level>"
